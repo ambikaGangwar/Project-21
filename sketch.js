@@ -36,6 +36,9 @@ if(damage<10){
   wall.shapeColor=color(0,255,0)
 }
 
+background(0);  
+drawSprites();
+}
 
  }
 function hasCollided(lbullet,lwall){
@@ -48,10 +51,7 @@ return false;
 }
  
 
-
-background(0);  
-drawSprites();
-}
+ 
 //if(wall.x-bullet.x<(bullet.width+wall.width)/2)
 //{
 //bullet.velocityX=0;
